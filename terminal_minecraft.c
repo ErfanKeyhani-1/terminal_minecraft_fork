@@ -401,6 +401,7 @@ void place_block(vect pos, char ***blocks, char block) {
 
 
 int main(void) {
+	printf("hello world");
 	char **picture = init_picture();
 	char ***blocks = init_blocks();
 	player_pos_view posview = init_posview();
